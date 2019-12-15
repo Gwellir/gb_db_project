@@ -14,6 +14,6 @@ END//
 DELIMITER ;
 
 UPDATE conversations
-SET pinned_id = 58 -- 82, 707 также принадлежат первому чату
+SET pinned_id = 58 -- 82, 707 ГІГ ГЄГ¦ГҐ ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г ГІ ГЇГҐГ°ГўГ®Г¬Гі Г·Г ГІГі
 WHERE id = 1;
 
