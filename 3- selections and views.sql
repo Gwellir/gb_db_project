@@ -48,5 +48,5 @@ AS
 	 	WHERE test_mutual(user_id, contact_id) = TRUE;
 	 
 SELECT * FROM contact_list
-	WHERE user_id = 7; -- (7, 14), (17, 47), (28, 71) - взаимные пары
+	WHERE user_id = 7; -- (7, 14), (17, 47), (28, 71) - ГўГ§Г ГЁГ¬Г­Г»ГҐ ГЇГ Г°Г»
 
