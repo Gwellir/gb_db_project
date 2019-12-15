@@ -44,7 +44,7 @@ CREATE TABLE conversations (
 	group_image BIGINT UNSIGNED,
 	created_at datetime NOT NULL default now(),
 	created_by BIGINT UNSIGNED NOT NULL, 
-	type ENUM ('private', 'chat', 'channel'), -- подумать о приватных диалогах
+	type ENUM ('private', 'chat', 'channel'), -- ГЇГ®Г¤ГіГ¬Г ГІГј Г® ГЇГ°ГЁГўГ ГІГ­Г»Гµ Г¤ГЁГ Г«Г®ГЈГ Гµ
 	pinned_id BIGINT UNSIGNED,
 	is_deleted BOOL DEFAULT false,
 
